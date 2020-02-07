@@ -9,7 +9,7 @@ public void setup()
 }
 
 public void draw(){
-	
+	background(0);
 	myFractal(x,y,siz);
 }
 
@@ -37,7 +37,7 @@ public void mouseMoved(){
 
 public void myFractal(int x, int y, int siz)
 {
-	circle(x,y,siz);
+	ellipse(x,y,siz,siz);
 	if(siz > 20)
 	{
 		myFractal(x+siz/3,y,siz/2);
