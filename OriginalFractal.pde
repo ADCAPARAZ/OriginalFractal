@@ -1,10 +1,10 @@
-int x = 500;
-int y = 500;
-int siz = 980;
+int x = 300;
+int y = 300;
+int siz = 580;
 
 public void setup()
 {
-	size(1000,1000);
+	size(600,600);
 	rectMode(CENTER);
 }
 
